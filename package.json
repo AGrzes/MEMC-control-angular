@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AGrzes/MEMC/issues"
   },
-  "homepage": "https://github.com/AGrzes/MEMC#readme"
+  "homepage": "https://github.com/AGrzes/MEMC#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
 }
