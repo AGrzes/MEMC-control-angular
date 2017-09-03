@@ -18,8 +18,15 @@
   },
   "homepage": "https://github.com/AGrzes/MEMC#readme",
   "devDependencies": {
+    "angular-mocks": "^1.6.6",
+    "chai": "^4.1.2",
     "css-loader": "^0.28.7",
     "file-loader": "^0.11.2",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-webpack": "^2.0.4",
+    "mocha": "^3.5.0",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.5"
   },
