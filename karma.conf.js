@@ -27,16 +27,15 @@ module.exports = function (config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
       // add webpack as preprocessor
-      'test/**/*.js': ['webpack'],
-      'src/**/*.js': ['coverage']
-  },
+      'test/**/*.js': ['webpack', 'coverage']
+    },
 
 
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress', 'coverage','coveralls'],
+    reporters: ['progress', 'coverage', 'coveralls'],
 
 
     // web server port
@@ -77,8 +76,8 @@ module.exports = function (config) {
     ],
 
     coverageReporter: {
-      type : 'lcov',
-      dir : 'coverage/'
+      type: 'lcov',
+      dir: 'coverage/'
     }
   })
 }
